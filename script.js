@@ -807,7 +807,7 @@ document.getElementById('new-quote').addEventListener('click', function () {
     if (firstClick) {
         quoteElement.innerHTML = `
             <img src="image.png" alt="Funny Image" style="width: 100%; border-radius: 10px; margin-bottom: 15px;">
-            <p>Kupal kaba boss? btw joke lang HAHAHA!</p>
+            <p>Kupal kaba boss? btw joke lang HAHAHA!(click the button again:)</p>
         `;
         firstClick = false;
     } else {
